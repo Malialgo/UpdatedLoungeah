@@ -17,6 +17,11 @@ h2 {
   font-size: 130%;
 }
 
+p {
+  padding: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 #guarantee {
   line-height: 1.9em;
   font-style: italic;
@@ -25,6 +30,7 @@ h2 {
   border-color: white;
   border-width: 1px;
   border-style: dashed;
+  border-radius: 25px;
   background-color: #a7cece;
   padding: 25px;
   padding-left: 80px;
@@ -33,4 +39,9 @@ h2 {
   background-image: url(images/background.gif);
   background-repeat: no-repeat;
   background-position: top left;
+}
+
+#logo {
+  border-color: #007e7e;
+  border-style: dotted;
 }
